@@ -203,10 +203,11 @@ Variable Importance (Python):
             never smoked
   9	          Gender_Male	      0.000000	       0.00%
   10	  work_type_Self-employed	0.000000	       0.00%
-  11	smoking_status_          	0.000000	       0.00%
-  12	Residence_type_Urban	0.000000	0.00%
-  13	work_type_children	0.000000	0.00%
-  14	smoking_status_smokes	0.000000	0.00%
+  11	     smoking_status_      0.000000	       0.00%
+           formerly smoked
+  12	Residence_type_Urban	    0.000000	       0.00%
+  13	work_type_children	      0.000000	       0.00%
+  14	smoking_status_smokes	    0.000000	       0.00%
 
 Accuracy Test
 Accuracy Test (R):
@@ -217,10 +218,10 @@ Best Threshold: 0.04865
 	The model correctly identifies most stroke cases (~89.6%)
 	Many false positives (lower specificity)
 	Confusion Matrix:
-Actual
-Predicted	0	1
-0	1396	13
-1	969	112
+                  Actual
+Predicted	       0	    1
+  0	           1396	   13
+  1	            969	  112
 
 
 Accuracy Test (Python):
@@ -230,10 +231,10 @@ Best Threshold: 0.0512
 	Specificity: 0.6846
 	The model correctly identifies most stroke cases (~82.4%)
 	Confusion Matrix:
-Actual
-Predicted	0	1
-0	1619	22
-1	746	103
+                Actual
+Predicted	     0	    1
+  0	         1619	   22
+  1	          746	  103
 
 Key Observations
 	Age is the strongest predictor (top split, highest importance variable)
