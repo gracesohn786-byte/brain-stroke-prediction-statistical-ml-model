@@ -1,0 +1,16 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# Data files
+data/raw/*
+data/processed/*
+
+# Saved models
+models/*.pkl
+*.pkl
+
+# Large compressed files
+*.zip
+*.tar.gz
