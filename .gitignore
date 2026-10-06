@@ -21,6 +21,7 @@ datasets/
 R Code references/
 Application & Proposal/
 *.csv
+*.xlsx
 
 # Saved models
 models/*.pkl
