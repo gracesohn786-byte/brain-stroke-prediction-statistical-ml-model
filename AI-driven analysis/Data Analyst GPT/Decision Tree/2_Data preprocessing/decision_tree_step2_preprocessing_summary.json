@@ -1,0 +1,24 @@
+{
+  "training_rows": 2490,
+  "training_columns": 11,
+  "target": "stroke",
+  "features_removed": [
+    "None"
+  ],
+  "numerical_predictors": [
+    "age",
+    "hypertension",
+    "heart_disease",
+    "avg_glucose_level",
+    "bmi"
+  ],
+  "categorical_predictors": [
+    "Gender",
+    "ever_married",
+    "work_type",
+    "Residence_type",
+    "smoking_status"
+  ],
+  "original_predictor_count": 10,
+  "transformed_feature_count": 19
+}

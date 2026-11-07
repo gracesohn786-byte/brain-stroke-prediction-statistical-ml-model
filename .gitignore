@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data/other files
+Stroke Excel Datasets/
+data/
+datasets/
+R Code references/
+Application & Proposal/
+*.csv
+*.xlsx
+
+# Saved models
+models/*.pkl
+*.pkl
+
+# Large compressed files
+*.zip
+*.tar.gz
+*.rar
+.*tmp
+*.log
